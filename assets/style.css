@@ -1,0 +1,35 @@
+body {
+    background-color: whitesmoke;
+    font-family: 'Peddana', serif;
+  }
+  #yourName {
+    font: italic;
+  }
+#about-photo{
+  width: 250px;
+  border-radius: 10px;
+}
+
+#bio-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding: 10px;
+}
+  #contact {
+    color: whitesmoke;
+  }
+  .line {
+    border-bottom: 0.5px dashed black;
+    display: block;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .form-group {
+    margin-top: 20px;
+  }
+  .footer {
+    text-align: center;
+  }
