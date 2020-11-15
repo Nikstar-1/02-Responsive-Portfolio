@@ -1,15 +1,27 @@
+html,
+body,
+header,
+#intro{
+  height: 100%;
+}
+
+#intro{
+  background: url(https://cdn.hipwallpaper.com/i/29/11/VwlI47.jpg);
+}
+
 body {
     background-color: whitesmoke;
     font-family: 'Peddana', serif;
   }
+
   #yourName {
     font: italic;
   }
   .ml3 {
-    font-weight: 525;
+    font-weight: 590;
     font-size: 2.5em;
     font-style: italic;
-    color: darkslategrey;
+    color:dark rgb(119, 128, 136);
    
   }
 #about-photo{
@@ -24,10 +36,15 @@ body {
   width: 50%;
   padding: 10px;
 }
+.progress{
+  color: teal;
+}
   #contact {
-    color: whitesmoke;
+    color:darkslategray;
   }
-
+  #portfolio{
+    color: darkslategray;
+  }
   .line {
     border-bottom: 0.5px dashed black;
     display: block;
@@ -73,8 +90,8 @@ body {
   }
   
 
-
   .footer {
     text-align: center;
+    padding: 50px;
   }
 
