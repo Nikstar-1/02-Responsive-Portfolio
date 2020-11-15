@@ -21,7 +21,7 @@ body {
     font-weight: 590;
     font-size: 2.5em;
     font-style: italic;
-    color:dark rgb(119, 128, 136);
+    color:darkslategrey;
    
   }
 #about-photo{
@@ -35,9 +35,6 @@ body {
   margin-right: auto;
   width: 50%;
   padding: 10px;
-}
-.progress{
-  color: teal;
 }
   #contact {
     color:darkslategray;
@@ -86,6 +83,10 @@ body {
    width: 50px;
    
   }
+  .h3{
+    font-family: 'Peddana', serif;
+    text-align: center;
+  }
   .progress {
     margin: 2%;
     position: relative;
@@ -96,14 +97,17 @@ body {
     color: darkslategrey;
     background-color: thistle;
   }
-  .progress-bar-info{
+  .progress-bar-info {
     column-count: 40%;
   }
+
+  
   a:visited {
     color:darkslategray;
     background-color: transparent;
     text-decoration: none;
     text-align: center;
+    
   }
 
   .footer {
