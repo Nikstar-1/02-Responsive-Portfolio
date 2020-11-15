@@ -2,7 +2,7 @@ html,
 body,
 header,
 #intro{
-  height: 100%;
+  height: 101%;
 }
 
 #intro{
@@ -42,15 +42,13 @@ body {
   #contact {
     color:darkslategray;
   }
-  #portfolio{
-    color: darkslategray;
-  }
+ 
   .line {
     border-bottom: 0.5px dashed black;
     display: block;
   }
   .container {
-    margin-top: 50px;
+    margin-top: 5px;
   }
   .form-group {
     margin-top: 20px;
@@ -88,10 +86,27 @@ body {
    width: 50px;
    
   }
-  
+  .progress {
+    margin: 2%;
+    position: relative;
+    right: 2%;
+    
+  }
+  .progress-bar-striped{
+    color: darkslategrey;
+    background-color: thistle;
+  }
+  .progress-bar-info{
+    column-count: 40%;
+  }
+  a:visited {
+    color:darkslategray;
+    background-color: transparent;
+    text-decoration: none;
+    text-align: center;
+  }
 
   .footer {
     text-align: center;
-    padding: 50px;
   }
 
