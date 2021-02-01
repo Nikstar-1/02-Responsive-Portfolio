@@ -106,11 +106,11 @@ html{
   right: 2%;
 }
 .progress-bar-striped {
-  color: darkslategrey;
-  background-color: thistle;
+  color: white;
+  background-color: #f3258c;
 }
 .progress-bar-info {
-  column-count: 40%;
+  column-count: 10%;
 }
 
 a:visited {
