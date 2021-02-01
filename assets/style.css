@@ -14,7 +14,7 @@ img {
 
 #intro {
   background: url(https://icodemag.com/wp-content/uploads/2019/05/clean-html-code-650x300.jpg);
-  background-attachment: fixed;
+  background-attachment: auto;
   background-position: center; 
   background-size: 100% auto;
   filter: contrast(120%)
@@ -119,8 +119,7 @@ html{
 }
 .progress-bar-striped {
   color: white;
-  background-color: #f3258c;
-  box-shadow: 4px 2px 2px 5px #00BFFF;
+  background-color:#99004d;
 }
 .progress-bar-info {
   column-count: 10%;
@@ -128,5 +127,7 @@ html{
 .footer {
   text-align: center;
   color: white;
+  padding-top: 5px;
+  
 
 }
