@@ -12,16 +12,17 @@ img {
   border: 3px solid white;
 }
 
-body {
+#intro {
   background: url(https://icodemag.com/wp-content/uploads/2019/05/clean-html-code-650x300.jpg);
   background-attachment: fixed;
-  background-position: center; position: auto;
+  background-position: center; 
   background-size: 100% auto;
   filter: contrast(120%)
+  
 }
 
 body{
-  background-color: whitesmoke;
+ 
   font-family: "Peddana", serif;
   color: white;
   text-shadow: 2px 2px 4px black;
@@ -127,7 +128,5 @@ html{
 .footer {
   text-align: center;
   color: white;
-  padding-top: 5px;
   
-
 }
