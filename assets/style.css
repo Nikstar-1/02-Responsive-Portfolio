@@ -5,20 +5,26 @@ header,
   height: 101%;
 }
 
+a {
+  color: white;
+}
+img {
+  border: 3px solid white;
+}
+
 #intro {
   background: url(https://icodemag.com/wp-content/uploads/2019/05/clean-html-code-650x300.jpg);
   background-attachment: fixed;
   background-position: center; 
   background-size: 100% auto;
   filter: contrast(120%)
-  
 }
 
 body{
   background-color: whitesmoke;
   font-family: "Peddana", serif;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+  text-shadow: 2px 2px 4px black;
   font-weight: bold;
   
 }
@@ -119,16 +125,8 @@ html{
 .progress-bar-info {
   column-count: 10%;
 }
-
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  text-align: center;
-}
-
 .footer {
   text-align: center;
   color: white;
-  text-shadow: 2px 2px 4px #000000;
+
 }
