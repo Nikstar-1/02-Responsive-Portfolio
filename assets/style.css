@@ -12,10 +12,10 @@ img {
   border: 3px solid white;
 }
 
-#intro {
+body {
   background: url(https://icodemag.com/wp-content/uploads/2019/05/clean-html-code-650x300.jpg);
-  background-attachment: auto;
-  background-position: center; 
+  background-attachment: fixed;
+  background-position: center; position: auto;
   background-size: 100% auto;
   filter: contrast(120%)
 }
@@ -37,7 +37,7 @@ html{
 }
 .ml3 {
   font-weight: 590;
-  font-size: 3.5em;
+  font-size: 3.0em;
   font-style: italic;
   color: white;
   text-shadow: 2px 2px 10px #000000;
