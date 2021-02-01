@@ -1,30 +1,38 @@
 html,
 body,
 header,
-#intro{
+#intro {
   height: 101%;
 }
 
-#intro{
-  background: url(https://cdn.hipwallpaper.com/i/29/11/VwlI47.jpg);
+#intro {
+  background: url(https://icodemag.com/wp-content/uploads/2019/05/clean-html-code-650x300.jpg);
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 100% auto;
 }
 
-body {
-    background-color: whitesmoke;
-    font-family: 'Peddana', serif;
-  }
+body{
+  background-color: whitesmoke;
+  font-family: "Peddana", serif;
+  color: white;
+  font-weight: bold;
+  
+}
+html{
+  height: 100%;
+}
 
-  #yourName {
-    font: italic;
-  }
-  .ml3 {
-    font-weight: 590;
-    font-size: 2.5em;
-    font-style: italic;
-    color:darkslategrey;
-   
-  }
-#about-photo{
+#yourName {
+  font: italic;
+}
+.ml3 {
+  font-weight: 590;
+  font-size: 2.5em;
+  font-style: italic;
+  color: white;
+}
+#about-photo {
   width: 250px;
   border-radius: 10px;
 }
@@ -36,81 +44,82 @@ body {
   width: 50%;
   padding: 10px;
 }
-  #contact {
-    color:darkslategray;
-  }
- 
-  .line {
-    border-bottom: 0.5px dashed black;
-    display: block;
-  }
-  .container {
-    margin-top: 5px;
-  }
-  .form-group {
-    margin-top: 20px;
-  }
- 
-  .fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 55px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-  }
-  
-  .fa:hover {
-    opacity: 0.7;
-  }
+#contact {
+  color: white;
+}
 
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-  .fa-instagram {
-    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
-    color: white;
-    
-  }  
+.line {
+  border-bottom: 0.5px dashed white;
+  display: block;
+}
+.container {
+  margin-top: 5px;
+}
+.form-group {
+  margin-top: 20px;
+}
 
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-  .fa-github{
-   color: black;
-   width: 50px;
-   
-  }
-  .h3{
-    font-family: 'Peddana', serif;
-    text-align: center;
-  }
-  .progress {
-    margin: 2%;
-    position: relative;
-    right: 2%;
-    
-  }
-  .progress-bar-striped{
-    color: darkslategrey;
-    background-color: thistle;
-  }
-  .progress-bar-info {
-    column-count: 40%;
-  }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
 
-  
-  a:visited {
-    color:darkslategray;
-    background-color: transparent;
-    text-decoration: none;
-    text-align: center;
-    
-  }
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .footer {
-    text-align: center;
-  }
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  color: white;
+}
 
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+.fa-github {
+  color: black;
+  width: 50px;
+}
+.h3 {
+  font-family: "Peddana", serif;
+  text-align: center;
+}
+.progress {
+  margin: 2%;
+  position: relative;
+  right: 2%;
+}
+.progress-bar-striped {
+  color: darkslategrey;
+  background-color: thistle;
+}
+.progress-bar-info {
+  column-count: 40%;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+}
